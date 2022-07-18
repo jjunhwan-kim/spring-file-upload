@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+# Error, Exception
+server:
+  error:
+    include-exception: true
+    include-message: always
+
+  port: 8081

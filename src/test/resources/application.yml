@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    group:
+      develop-windows:
+        - dev
+        - testdb
+        - windows
+      develop-linux:
+        - dev
+        - testdb
+        - linux
+      production:
+    active: develop-linux
