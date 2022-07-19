@@ -6,7 +6,9 @@ spring:
 # Error, Exception
 server:
   error:
+    include-binding-errors: always
     include-exception: true
     include-message: always
+    include-stacktrace: always
 
-  port: 8081
+  port: 8080
